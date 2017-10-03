@@ -1,0 +1,26 @@
+{% extends "general/base.html" %}
+{% load staticfiles %}
+
+{% block extra_head %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/mountains.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/accounts.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/settings.css' %}" />
+{% endblock extra_head %}
+
+{% block title %} Fourteeners - Login {% endblock %}
+
+{% block content %}
+
+<div id="mtn-list-container" class="tabs-content">
+    <div id="list-top" class="mountaintop"></div>
+
+    <section id="login-area" class="content-section">
+        <h1> Log in</h1>
+        <form id="login-form" method="post">{% csrf_token %}
+        {{form.as_ul}}
+        <input type="submit" value="Log In" class="button"/>
+        </form>
+    </section>
+</div>
+
+{% endblock content %}

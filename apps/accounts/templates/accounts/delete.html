@@ -1,0 +1,28 @@
+{% extends "general/base.html" %}
+{% load staticfiles %}
+
+{% block title %} Fourteeners - Delete Account {% endblock %}
+
+{% block extra_head %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/mountains.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/settings.css' %}" />
+{% endblock extra_head %}
+
+{% block content %}
+<div id="mtn-list-container" class="tabs-content">
+    <div id="list-top" class="mountaintop"></div>
+
+    <section id="settings-area" class="content-section">
+        <h1> Whoa, there <h1>
+                <p> Hey, we can talk this out.  <br/> No need to do anything we'll regret.  <br/> Just put the delete button down and everything will be just fine. <br/>
+                Remember that time we stored that climb data?  That was so much fun, right?! <br/> We can totally keep doing that, but it's completely up to you...
+        </p>
+
+        <div id="button-row">
+            <a href="#" class="button"> Ok, let's be friends again</a>
+            <a href="#" class="button"> It's not you, it's me.</a>
+        </div>
+    </section>
+</div>
+
+{% endblock content %}

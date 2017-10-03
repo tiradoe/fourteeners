@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 301.267 1366 267.08">
+<polygon id="background" fill="#F4F4F4" points="1260.594,394.247 1197.542,423.382 1045.573,375.632 958.963,423.382 
+	684.188,301.267 469.044,405.266 413.654,422.093 275.527,361.467 123.557,422.093 98.302,405.266 0,443.903 0,568.347 
+	1372.878,568.347 1372.878,476.099 "/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="488.9945" y1="671.7959" x2="488.9945" y2="578.836" gradientTransform="matrix(2.106 0 0 -2.106 0 1778.3904)">
+	<stop  offset="0" style="stop-color:#99999A"/>
+	<stop  offset="1" style="stop-color:#E2E2E1;stop-opacity:0"/>
+</linearGradient>
+<polygon opacity="0.48" fill="url(#SVGID_1_)" enable-background="new    " points="1365.457,479.49 1361.005,473.237 
+	1321.346,472.06 1256.953,436.037 1235.059,445.825 1199.063,439.952 1120.437,455.614 1019.983,431.338 1019.983,462.661 
+	956.878,440.735 915.666,490.071 802.333,431.338 772.712,446.217 744.378,448.565 693.654,479.208 693.654,556.635 1366,568.347 
+	"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="162.1545" y1="671.7959" x2="162.1545" y2="578.836" gradientTransform="matrix(2.106 0 0 -2.106 0 1778.3904)">
+	<stop  offset="0" style="stop-color:#99999A"/>
+	<stop  offset="1" style="stop-color:#E2E2E1;stop-opacity:0"/>
+</linearGradient>
+<polygon opacity="0.48" fill="url(#SVGID_2_)" enable-background="new    " points="628.107,447.782 599.775,445.434 
+	570.154,430.555 379.547,489.287 338.335,439.952 275.228,461.877 275.228,430.555 174.774,454.831 96.148,439.168 60.154,445.042 
+	38.26,435.253 4.168,454.323 4.168,566.329 678.83,555.852 678.83,478.424 "/>
+</svg>

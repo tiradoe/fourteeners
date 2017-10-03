@@ -1,0 +1,18 @@
+{% extends "general/base.html" %}
+{% load staticfiles %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'css/accounts.css' %}" />
+{% endblock extra_head %}
+
+{% block title %} Fourteeners - Logged out {% endblock %}
+
+{% block content %}
+
+<h1> Oh, ok... I guess you can leave </h1>
+
+<img src="http://i.imgur.com/lJ6giwo.jpg" />
+
+<p> But you can also <a href = "{% url 'accounts:login' %}"> log back in </a>
+
+{% endblock content %}

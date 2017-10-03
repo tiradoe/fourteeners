@@ -1,0 +1,79 @@
+{% extends "general/base.html" %}
+{% load staticfiles %}
+{% load humanize %}
+{% load mountain_extras %}
+
+{% block title %} Fourteeners {% endblock %}
+{% block extra_head %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/mountains.css' %}" />
+
+{% endblock extra_head %}
+{% block content %}
+
+<div id="mtn-list-container">
+<section id="list">
+  <div id="mountains" class="columns small-12">
+    <div id="list-top" class="mountaintop"></div>
+
+<!-- Search -->
+  <div id="search-container">
+    <input id="search" class="search list-first" type="text" placeholder="SEARCH HERE"/>
+  </div>
+<!-- Filters and Sorting -->
+
+    <!-- <div class="row filter-row">
+
+     <dl id = "sort" class="sub-nav">
+        <dt>Sort:</dt>
+        <dd class="filter-btn active sort" data-sort="name"><a href="#">Name</a></dd>
+        <dd class="filter-btn sort" data-sort="elevation"><a href="#">Elevation</a></dd>
+        <dd class="filter-btn sort" data-sort="difficulty"><a href="#">Difficulty</a></dd>
+      </dl>
+
+      <dl id ="filters" class="sub-nav">
+        <dt>Filter:</dt>
+        <dd class="filter-btn filter" id="easiest-button"><a href="#">Easiest</a></dd>
+        <dd class="filter-btn filter" id="moderate-button"><a href="#">Moderate</a></dd>
+        <dd class="filter-btn filter" id="difficult-button"><a href="#">Difficult</a></dd>
+        <dd class="filter-btn filter" id="most-difficult-button"><a href="#">Most Difficult</a></dd>
+        <dd class = "active filter-btn filter" id="filter-none"><a href="#">None</a></dd>
+      </dl>
+      </div> -->
+
+<!-- Fourteener List -->
+
+    <ul id="mountain-list" class="list">
+    {% for mountain in mountains %}
+    <!--
+          <% complete = completeCheck(mountain['name']) %> -->
+
+          <a href="{% url 'mountains:edit' peak=mountain.id %}">
+            <li class= "mountain-info <%= complete %> ">
+              <!--   <div class="mount-list-container left">
+                  <object data="{% static 'img/mount-list.svg' %}" type="image/svg+xml" class="mount-list">
+                </div> -->
+
+                <div class="mount-details-container">
+                    <h2 class="name">{{ mountain.name }}</h2>
+                    <small>
+                      Elevation:<span class="elevation">{{ mountain.elevation|intcomma }} ft |
+                      Difficulty: <span class="difficulty">{{ mountain.difficulty }}</span> |
+                      Climbs: <span class="topped"> {{ mountain|getClimb:user_id }}</span>
+                    </small>
+              </span>
+            </li>
+          </a>
+    {% endfor %}
+    </ul>
+  </div>
+</section>
+</div>
+
+
+{% endblock content %}
+
+{% block extraincludes %}
+<script src="{% static 'js/mountains.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/list.js' %}" type="text/javascript"></script>
+{% endblock extraincludes %}

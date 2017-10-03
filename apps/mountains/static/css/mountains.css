@@ -1,0 +1,258 @@
+body {
+  background-color: #9FC3CE;
+  font-size: 14px; }
+
+h1, h2, h3 {
+  font-family: 'myriad pro', helvetica, arial, san-serif; }
+
+input[type="text"][readonly] {
+  background-color: #FFF;
+}
+
+.mountaintop {
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDMyMy45IDYxMiAxNTUuNiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDMyMy45IDYxMiAxNTUuNiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cG9seWdvbiBmaWxsPSIjRjRGNEY0IiBwb2ludHM9IjU2NC44LDQwMi40IDUzNi41LDQxNS40IDQ2OC40LDM5NCA0MjkuNiw0MTUuNCAzMDYuNSwzNjAuNyAyMTAuMSw0MDcuMyAxODUuMyw0MTQuOSAxMjMuNCwzODcuNyANCgk1NS40LDQxNC45IDQ0LDQwNy4zIDAsNDI0LjYgMCw0ODAuNCA2MTUuMSw0ODAuNCA2MTUuMSw0MzkuMSAiLz4NCjxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iNDg5LjAzMDIiIHkxPSI3MDMuOCIgeDI9IjQ4OS4wMzAyIiB5Mj0iNjEwLjgiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMC45NDM1IDAgMCAtMC45NDM1IDAgMTA1Mi43MDUpIj4NCgk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojOTk5OTlBIi8+DQoJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6I0UyRTJFMTtzdG9wLW9wYWNpdHk6MCIvPg0KPC9saW5lYXJHcmFkaWVudD4NCjxwb2x5Z29uIG9wYWNpdHk9IjAuNDgiIGZpbGw9InVybCgjU1ZHSURfMV8pIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3ICAgICIgcG9pbnRzPSI2MTEuOCw0NDAuNiA2MDkuOCw0MzcuOCA1OTIsNDM3LjIgNTYzLjEsNDIxLjEgDQoJNTUzLjMsNDI1LjUgNTM3LjIsNDIyLjkgNTAyLDQyOS45IDQ1Nyw0MTkgNDU3LDQzMyA0MjguNyw0MjMuMiA0MTAuMiw0NDUuMyAzNTkuNSw0MTkgMzQ2LjIsNDI1LjcgMzMzLjUsNDI2LjcgMzEwLjgsNDQwLjQgDQoJMzEwLjgsNDc1LjEgNjEyLDQ4MC40ICIvPg0KPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8yXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxNjIuMTYyMiIgeTE9IjcwMy44IiB4Mj0iMTYyLjE2MjIiIHkyPSI2MTAuOCIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwLjk0MzUgMCAwIC0wLjk0MzUgMCAxMDUyLjcwNSkiPg0KCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiM5OTk5OUEiLz4NCgk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojRTJFMkUxO3N0b3Atb3BhY2l0eTowIi8+DQo8L2xpbmVhckdyYWRpZW50Pg0KPHBvbHlnb24gb3BhY2l0eT0iMC40OCIgZmlsbD0idXJsKCNTVkdJRF8yXykiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgICAgIiBwb2ludHM9IjI4MS40LDQyNi40IDI2OC43LDQyNS4zIDI1NS40LDQxOC42IDE3MCw0NDUgDQoJMTUxLjYsNDIyLjkgMTIzLjMsNDMyLjcgMTIzLjMsNDE4LjYgNzguMyw0MjkuNSA0My4xLDQyMi41IDI3LDQyNS4xIDE3LjEsNDIwLjggMS45LDQyOS4zIDEuOSw0NzkuNSAzMDQuMSw0NzQuOCAzMDQuMSw0NDAuMSAiLz4NCjxwb2x5Z29uIGZpbGw9IiNFNDIwM0EiIHBvaW50cz0iMzU5LjgsMzM3IDMzMi43LDM0My42IDMwNS42LDM1MC4yIDMwNS42LDMzNyAzMDUuNiwzMjMuOSAzMzIuNywzMzAuNSAiLz4NCjwvc3ZnPg0K) no-repeat center bottom;
+  background-size: contain;
+  padding-top: 1em;
+}
+
+#search-container {
+  &.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+
+    #search {
+      max-width: 720px;
+      margin: 0 auto;
+      box-shadow: 0 2px 3px rgba(0,0,0,.1);
+      }
+    }
+}
+#search{
+  margin: 0;
+  padding: 0;
+  height: 4em;
+  background: url("../img/list-bg.jpg") repeat top left;
+  text-align: center;
+  -webkit-transition: all .2s; /* For Safari 3.1 to 6.0 */
+  transition: all .2s;
+ }
+
+#list-top {
+  width: 100%;
+  margin: 0 auto;
+  height: 183px;
+  margin-bottom: -3px; }
+
+#list {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1em;
+  }
+    #list .name, #mountain-info .name {
+      padding: 0;
+      margin: 0;
+      color: #686868;
+      font-size: 6vw;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-shadow: 0 5px 0 #cfcfcc, 0 -1px 0 #ecece9;
+      margin-bottom: -.2em;
+      -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+    }
+
+    @media screen and (min-width: 1000px) {
+        #list .name, #mountain-info .name{
+            font-size: 4vw;
+        }
+    }
+
+    #list small {
+      font-family: 'myriad pro', helvetica, arial, san-serif;
+      color: #939797;
+      font-size: 2.5vw;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    @media screen and (min-width: 750px) {
+        #list small, #mountain-info small{
+            font-size: 1.5vw;
+        }
+    }
+
+    /*Mountain-List Margin Top for sticky-Search*/
+    #mountain-list.margin-top {margin-top: 58px;}
+
+  #list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: url("../img/list-bg.jpg") repeat top left; }
+  #list li {
+    border-top: 1px solid #cfcfcd;
+    border-bottom: 1px solid #D8D8D8;
+    padding: .8em 0;
+    border-right: 1px solid #D5D9DA;
+    border-left: 1px solid #D5D9DA;
+    box-shadow: inset 0.5em 0 0 #CCCCCA,inset -.55em 0 0 #CCCCCA;
+    position: relative;
+    overflow: hidden;
+    }
+
+    #list li:first-child {
+      border-top: 0 none transparent; }
+    #list li:hover {
+      background: -moz-linear-gradient(top, #f2f2f1 0%, rgba(242, 242, 241, 0) 100%);
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f1), color-stop(100%, rgba(242, 242, 241, 0)));
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #f2f2f1 0%, rgba(242, 242, 241, 0) 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #f2f2f1 0%, rgba(242, 242, 241, 0) 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, #f2f2f1 0%, rgba(242, 242, 241, 0) 100%);
+      /* IE10+ */
+      background: linear-gradient(to bottom, #f2f2f1 0%, rgba(242, 242, 241, 0) 100%);
+      /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f1', endColorstr='#00f2f2f1',GradientType=0 );
+      /* IE6-9 */ }
+  #list .list-first:before {
+    content: "";
+    display: block;
+    height: 70px;
+    width: 100%;
+    background: -moz-linear-gradient(top, #f2f2f1 0%, rgba(242, 242, 241, 0) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f1), color-stop(100%, rgba(242, 242, 241, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f2f2f1 0%, rgba(242, 242, 241, 0) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f2f2f1 0%, rgba(242, 242, 241, 0) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f2f2f1 0%, rgba(242, 242, 241, 0) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #f2f2f1 0%, rgba(242, 242, 241, 0) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f1', endColorstr='#00f2f2f1',GradientType=0 );
+    /* IE6-9 */ }
+
+
+/*.completed .mount-list {
+        polygon {
+          fill: #AB8B1F;
+          box-shadow: 0 2px 0 #F2DE9A;
+          opacity: .3;
+        }
+      }
+    .mount-list-container {
+    max-height: 100px;
+    max-height: 80px;
+    width: 7.5em;
+
+      .mount-list {
+        polygon {
+          opacity: .5;
+        }
+      }
+    }
+
+    .mount-details-container {
+      width: 100%;
+      position: absolute;
+    }
+
+@-moz-document url-prefix() {
+  .mount-list-container {
+  width: 5.8em;
+  margin-left: 1em;  }
+}*/
+
+#mountains > h1,form {
+  background: url("../img/list-bg.jpg") repeat top left;
+  margin-bottom: 0;
+}
+  #mountains li {
+    box-shadow: none;
+  }
+
+.mountain-section{
+  border-style: solid none;
+  border-color: #DDD;
+  background-color: #DCE4E6;
+  padding: .1em;
+  padding-left: .5em;
+}
+
+#climb-fields, #weather-data {
+  background: url("../img/list-bg.jpg") repeat top left;
+  max-width: 719px;
+  border-top: #BFC1C1 .1em solid;
+}
+
+    #climb-fields > h1, #weather-data > h1 {
+        padding: .5em 0 1em 0;
+        margin: 0px 0px -0.2em;
+        color: #686868;
+        font-size: 3em;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: 0px 5px 0px #CFCFCC, 0px -1px 0px #ECECE9;
+        transition: all 0.2s ease-in-out 0s;
+    }
+
+.weather-image {
+    display: inline-block;
+}
+
+.picker__input {
+  background-color: #FFF !important;
+}
+
+/* Foundation overrides */
+/*.tabs-content > .content {
+  padding: 0;
+  margin: 0;
+}*/
+
+/* @todo: Get rid of !important */
+
+.tab-title {
+  border-style: none !important;
+}
+  .tab-title:hover {
+    background: none !important;
+  }
+
+
+/* pickadate fixes */
+.picker__footer button {
+  color: #000;
+}
+
+
+/* Changing foundation's default top bar color sucks */
+.top-bar {
+   background: #4E566F;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #4E566F;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+    background: #4E566F;
+}
+
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+    background: #4E566F;
+}
+

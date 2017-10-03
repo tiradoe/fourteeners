@@ -1,0 +1,12 @@
+#weather {
+    margin: auto;
+    text-align: left;
+    padding-left: 3em;
+}
+
+#weather-data {
+    background: url("../img/list-bg.jpg") repeat scroll left top transparent;
+    max-width: 717px;
+    margin: .2em auto auto;
+    text-align: center;
+}

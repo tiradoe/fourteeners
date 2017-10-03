@@ -1,0 +1,101 @@
+{% extends "general/base.html" %}
+{% load staticfiles %}
+{% load mountain_extras %}
+
+{% block extra_head %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/mountains.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/default.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/default.date.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/default.time.css' %}" />
+
+{% endblock extra_head %}
+
+{% block title %} Fourteeners {% endblock %}
+
+{% block content %}
+
+<div id="mtn-list-container" class="tabs-content">
+<section id="list" class="content active">
+    <div id="mountains" class="columns small-12">
+        <div id="list-top" class="mountaintop"></div>
+        <div id="climb-fields">
+            <h1>
+                {{ name }}
+                <a href="{% url 'mountains:weather' peak=mountain_id %}">
+                    <img src="{{ weather.image }}" title="{{ weather.status|capfirst }} - Click for full report"/>
+                </a>
+            </h1>
+
+            <div id="edit" class="active">
+                <form method="post">{% csrf_token %}
+                    {{ formset.management_form }}
+                    {% for form in formset.forms %}
+                        <div class="large-6 medium-6 columns">
+                            <label for="id_start_date"> Start Date </label>
+                            {{ form.start_date }}
+
+                        </div>
+                        <div class="large-6 medium-6 columns">
+                            <label for="id_start_time"> Start Time </label>
+                            {{ form.start_time }}
+                        </div>
+                        <div class="large-6 medium-6 columns">
+                            <label for="id_summit_date"> Summit Date </label>
+                            {{ form.summit_date }}
+                        </div>
+                        <div class="large-6 medium-6 columns">
+                            <label for="id_summit_time"> Summit Time </label>
+                            {{ form.summit_time }}
+                        </div>
+                        <div class="large-6 medium-6 columns">
+                            <label for="id_finish_date"> Finish Date </label>
+                            {{ form.finish_date }}
+                        </div>
+                        <div class="large-6 medium-6 columns">
+                            <label for="id_finish_time"> Finish Time </label>
+                            {{ form.finish_time }}
+                        </div>
+                        <div class="large-12 columns">
+                            <label for="id_total_distance"> Total Distance </label>
+                            {{ form.total_distance }}
+                        </div>
+                        <div class="small-12 columns">
+                            <label for="id_notes"> Notes </label>
+                            {{ form.notes }}
+                        </div>
+                    {% endfor %}
+
+                    <a href="{% url 'mountains:delete_climb' climb=1 %}" type="button" class="button alert"> - </a>
+                    <input type="submit" value="Update" class="button"/>
+                    <input type="button" value="+" class="button success">
+
+                    <div class="pagination">
+                        <span class="step-links">
+                            {% if climbs.has_previous %}
+                                <a href="?page={{ climbs.previous_page_number }}">Previous</a>
+                            {% endif %}
+
+                            <span class="current">
+                                Page {{ climbs.number }} of {{ climbs.paginator.num_pages }}
+                            </span>
+
+                            {% if climbs.has_next %}
+                                <a href="?page={{ climbs.next_page_number }}">next</a>
+                            {% endif %}
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+{% endblock content %}
+
+{% block extraincludes %}
+<script src="{% static 'js/picker.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/picker.date.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/picker.time.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/mountains.js' %}" type="text/javascript"></script>
+{% endblock extraincludes %}

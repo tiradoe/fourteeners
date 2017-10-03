@@ -1,0 +1,38 @@
+{% extends "general/base.html" %}
+{% load staticfiles %}
+{% load mountain_extras %}
+
+{% block title %} Fourteeners - Weather {% endblock %}
+
+{% block extra_head %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/mountains.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/weather.css' %}" />
+
+{% endblock extra_head %}
+
+{% block content %}
+<div id="mtn-list-container" class="tabs-content">
+    <div id="list-top" class="mountaintop"></div>
+    <section id="weather-data" class="">
+        <h1> {{ mountain.name }} </h1>
+        <div id="weather" class="row">
+            <div id="status-area" class="small-6 columns">
+                <h3> {{ weather.status | cap }} </h3>
+                <img src="{{ weather.image }}" />
+                <h3 class="weather-image"> {{ weather.temp }} &deg F</h3>
+            </div>
+
+            <div class="small-6 columns">
+                <p> County: {{ weather.county }}</p>
+                <p> Wind Speed:  {{ weather.speed }}</p>
+                <p> Cloud Cover:  {{ weather.cloud }}</p>
+                <p> Humidity:  {{ weather.humidity }}% </p>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock content %}
+
+{% block extraincludes %}
+<script src="{% static 'js/mountains.js' %}" type="text/javascript"></script>
+{% endblock extraincludes %}

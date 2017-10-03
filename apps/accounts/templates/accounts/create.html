@@ -1,0 +1,28 @@
+{% extends "general/base.html" %}
+{% load staticfiles %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'css/accounts.css' %}" />
+{% endblock extra_head %}
+
+{% block title %} Fourteeners{% endblock %}
+
+{% block content %}
+
+<div class="row">
+    <div id="create-account" class="large-6 column">
+    <h3> Create Account </h3>
+        <form method="post">{% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" value="Submit" class="button"/>
+        </form>
+    </div>
+
+    <div id="about-fourteeners" class="large-6 column">
+        <p>
+            Oh, hey!  You found this!  This site is very much a work in progress, but feel free to look around.  Just about everything works but the site needs quite a bit of polish.  This is still going through a lot of changes so I can't promise that your data will survive it.  You're still more than welcome to test it out!  Thanks for stopping by!
+        </p>
+    </div>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  db:
+    container_name: fourteenersdb
+    image: bitnami/mariadb
+    env_file: .env
+    restart: always
+    ports:
+        - 3306:3306
+    volumes:
+        - fourteeners_data:/bitnami
+
+  web:
+    container_name: fourteeners
+    build: .
+    env_file: .env
+    command: python3 manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    restart: always
+
+volumes:
+    fourteeners_data:

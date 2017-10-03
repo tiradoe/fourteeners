@@ -1,0 +1,584 @@
+[
+    {
+        "model": "mountains.mountain",
+            "fields": {
+            "name": "Blanca Peak",
+            "elevation": "14345",
+            "difficulty": "Moderate",
+            "lat": "37.5775",
+            "long": "-105.4856"
+        }
+    },
+    
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Capitol Peak",
+            "elevation": "14130",
+            "difficulty": "Most difficult",
+            "lat": "39.1502",
+            "long": "-107.0829"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Castle Peak",
+            "elevation": "14265",
+            "difficulty": "Moderate",
+            "lat": "39.0096",
+            "long": "-106.8613"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Challenger Point",
+            "elevation": "14081",
+            "difficulty": "Moderate",
+            "lat": "37.9804",
+            "long": "-105.6066"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Crestone Needle",
+            "elevation": "14197",
+            "difficulty": "Most Difficult",
+            "lat": "37.9647",
+            "long": "-105.5766"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Crestone Peak",
+            "elevation": "14294",
+            "difficulty": "Difficult",
+            "lat": "37.9668",
+            "long": "-105.5855"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Culebra Peak",
+            "elevation": "14053",
+            "difficulty": "Easiest",
+            "lat": "37.1224",
+            "long": "-105.1858"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Ellingwood Point",
+            "elevation": "14042",
+            "difficulty": "Moderate",
+            "lat": "37.5826",
+            "long": "-105.4927"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Grays Peak",
+            "elevation": "14270",
+            "difficulty": "Easiest",
+            "lat": "39.6337",
+            "long": "-105.8176"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Handies Peak",
+            "elevation": "14048",
+            "difficulty": "Easiest",
+            "lat": "37.9130",
+            "long": "-107.5045"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Humboldt Peak",
+            "elevation": "14064",
+            "difficulty": "Moderate",
+            "lat": "37.9762",
+            "long": "-105.5552"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Huron Peak",
+            "elevation": "14003",
+            "difficulty": "Easiest",
+            "lat": "38.9455",
+            "long": "-106.4380"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Kit Carson Peak",
+            "elevation": "14165",
+            "difficulty": "Difficult",
+            "lat": "37.9797",
+            "long": "-105.6026"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "La Plata Peak",
+            "elevation": "14336",
+            "difficulty": "Moderate",
+            "lat": "39.0294",
+            "long": "-106.4729"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Little Bear Peak",
+            "elevation": "14037",
+            "difficulty": "Most Difficult",
+            "lat": "37.5666",
+            "long": "-105.4972"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Longs Peak",
+            "elevation": "14255",
+            "difficulty": "Difficult",
+            "lat": "40.2549",
+            "long": "-105.6161"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Maroon Peak",
+            "elevation": "14156",
+            "difficulty": "Difficult",
+            "lat": "39.0708",
+            "long": "-106.9890"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Missouri Mountain",
+            "elevation": "14067",
+            "difficulty": "Moderate",
+            "lat": "38.0708",
+            "long": "-106.3786"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Antero",
+            "elevation": "14269",
+            "difficulty": "Moderate",
+            "lat": "38.6739",
+            "long": "-106.2461"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Belford",
+            "elevation": "14229",
+            "difficulty": "Moderate",
+            "lat": "38.9606",
+            "long": "-106.3608"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Bierstadt",
+            "elevation": "14060",
+            "difficulty": "Easiest",
+            "lat": "39.5826",
+            "long": "-105.6688"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Bross",
+            "elevation": "14172",
+            "difficulty": "Easiest",
+            "lat": "39.3355",
+            "long": "-106.1076"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Columbia",
+            "elevation": "14073",
+            "difficulty": "Moderate",
+            "lat": "38.9038",
+            "long": "-106.2975"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Democrat",
+            "elevation": "14148",
+            "difficulty": "Moderate",
+            "lat": "39.3396",
+            "long": "-106.1400"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Elbert",
+            "elevation": "14433",
+            "difficulty": "Easiest",
+            "lat": "39.1177",
+            "long": "-106.4452"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Eolus",
+            "elevation": "14083",
+            "difficulty": "Difficult",
+            "lat": "37.6218",
+            "long": "-107.6227"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Evans",
+            "elevation": "14264",
+            "difficulty": "Moderate",
+            "lat": "39.5883",
+            "long": "-105.6438"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Harvard",
+            "elevation": "14420",
+            "difficulty": "Moderate",
+            "lat": "38.9245",
+            "long": "-106.3208"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Lincoln",
+            "elevation": "14286",
+            "difficulty": "Easiest",
+            "lat": "39.3515",
+            "long": "-106.1116"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Lindsey",
+            "elevation": "14042",
+            "difficulty": "Difficult",
+            "lat": "37.5837",
+            "long": "-105.4449"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Massive",
+            "elevation": "14421",
+            "difficulty": "Moderate",
+            "lat": "39.1873",
+            "long": "-106.4755"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount of the Holy Cross",
+            "elevation": "14005",
+            "difficulty": "Moderate",
+            "lat": "39.4667",
+            "long": "-106.4817"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Oxford",
+            "elevation": "14153",
+            "difficulty": "Moderate",
+            "lat": "38.9648",
+            "long": "-106.3388"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Princeton",
+            "elevation": "14197",
+            "difficulty": "Moderate",
+            "lat": "38.7491",
+            "long": "-106.2423"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Shivano",
+            "elevation": "14229",
+            "difficulty": "Moderate",
+            "lat": "38.6193",
+            "long": "-106.2394"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Sherman",
+            "elevation": "14036",
+            "difficulty": "Easiest",
+            "lat": "39.2250",
+            "long": "-106.1699"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Sneffels",
+            "elevation": "14150",
+            "difficulty": "Moderate",
+            "lat": "38.0038",
+            "long": "-107.7923"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Wilson",
+            "elevation": "14246",
+            "difficulty": "Most Difficult",
+            "lat": "37.8391",
+            "long": "-107.9916"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Mount Yale",
+            "elevation": "14196",
+            "difficulty": "Moderate",
+            "lat": "38.8442",
+            "long": "-106.3138"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Pikes Peak",
+            "elevation": "14110",
+            "difficulty": "Easiest",
+            "lat": "38.8405",
+            "long": "-105.0446"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Pyramid Peak",
+            "elevation": "14018",
+            "difficulty": "Most Difficult",
+            "lat": "39.0716",
+            "long": "-106.9501"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Quandary Peak",
+            "elevation": "14265",
+            "difficulty": "Easiest",
+            "lat": "39.3972",
+            "long": "-106.1064"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Redcloud Peak",
+            "elevation": "14034",
+            "difficulty": "Moderate",
+            "lat": "37.9410",
+            "long": "-107.4219"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "San Luis Peak",
+            "elevation": "14014",
+            "difficulty": "Easiest",
+            "lat": "37.9868",
+            "long": "-106.9313"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Snowmass Mountain",
+            "elevation": "14092",
+            "difficulty": "Difficult",
+            "lat": "39.1187",
+            "long": "-107.0665"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Sunlight Peak",
+            "elevation": "14059",
+            "difficulty": "Most Difficult",
+            "lat": "37.6274",
+            "long": "-107.5959"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Sunshine Peak",
+            "elevation": "14001",
+            "difficulty": "Moderate",
+            "lat": "37.9228",
+            "long": "-107.4256"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Tabeguache Peak",
+            "elevation": "14155",
+            "difficulty": "Moderate",
+            "lat": "38.6254",
+            "long": "-106.2509"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Torreys Peak",
+            "elevation": "14267",
+            "difficulty": "Easiest",
+            "lat": "39.6428",
+            "long": "-105.8212"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Uncompahgre Peak",
+            "elevation": "14309",
+            "difficulty": "Moderate",
+            "lat": "38.0717",
+            "long": "-107.4622"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Wetterhorn Peak",
+            "elevation": "14015",
+            "difficulty": "Difficult",
+            "lat": "38.0607",
+            "long": "-107.5109"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Wilson Peak",
+            "elevation": "14017",
+            "difficulty": "Difficult",
+            "lat": "37.8603",
+            "long": "-107.9847"
+        }
+    },
+
+    {
+        "model": "mountains.mountain",
+        "fields": {
+            "name": "Windom Peak",
+            "elevation": "14082",
+            "difficulty": "Moderate",
+            "lat": "37.6212",
+            "long": "-107.5919"
+        }
+    }
+]

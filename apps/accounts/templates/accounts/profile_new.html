@@ -1,0 +1,31 @@
+{% extends "general/base.html" %}
+{% load staticfiles %}
+
+{% block extra_head %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/mountains.css' %}" />
+{% endblock extra_head %}
+
+{% block title %} Fourteners - Profile{% endblock %}
+
+{% block content %}
+
+<div id="mtn-list-container" class="tabs-content">
+<section id="list" class="content active">
+    <div id="mountains" class="columns small-12">
+        <div id="list-top" class="mountaintop"></div>
+
+        <h1> Create profile</h1>
+
+        <form method="post">{% csrf_token %}
+            {{form.as_ul}}
+            <input type="submit" value="Submit" class="button"/>
+        </form>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="{% static 'foundation/js/foundation.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/accounts.js' %}"></script>
+
+        <link rel="stylesheet" href="{% static 'css/accounts.css' %}" />
+    </div>
+</section>
+{% endblock content %}

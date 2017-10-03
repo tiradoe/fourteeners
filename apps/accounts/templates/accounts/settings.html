@@ -1,0 +1,32 @@
+{% extends "general/base.html" %}
+{% load staticfiles %}
+
+{% block title %} Fourteeners - Settings {% endblock %}
+
+{% block extra_head %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/mountains.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/settings.css' %}" />
+{% endblock extra_head %}
+
+{% block content %}
+<div id="mtn-list-container" class="tabs-content">
+    <div id="list-top" class="mountaintop"></div>
+
+    <section id="settings-area" class="content-section">
+        <h1>Settings for {{ name }}</h1>
+        <ul id="settings">
+            <li> Change Password: <a href="{% url 'accounts:password_change' %}">Change Password</a> </li>
+            <form>
+            <li> Units:
+                <input type="radio" name="units"> Metric </input>
+                <input type="radio" name="units"> Imperial </input>
+            </li>
+            <li> Delete Account: <a href="{% url 'accounts:delete' %}">I hate this website and also fun </a></li>
+
+            <input type="submit" value="Submit" class="button"/>
+            </form>
+        </ul>
+    </section>
+</div>
+
+{% endblock content %}

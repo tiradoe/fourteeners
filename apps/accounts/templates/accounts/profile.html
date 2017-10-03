@@ -1,0 +1,43 @@
+{% extends "general/base.html" %}
+{% load staticfiles %}
+
+{% block extra_head %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/mountains.css' %}" />
+<link rel="stylesheet" href="{% static 'css/accounts.css' %}" />
+{% endblock extra_head %}
+
+{% block title %} Fourteners - Profile{% endblock %}
+
+{% block content %}
+
+<div id="mtn-list-container" class="tabs-content">
+<section id="profile" class="active">
+    <div id="mountains" class="columns small-12">
+        <div id="list-top" class="mountaintop"></div>
+        <section id="profile-info">
+            <h1> {{ user.first_name }} </h1>
+            <ul class="user-info">
+                <li> Location: {{ profile.location }} </li>
+                <li> Fourteeners Climbed: 42 </li>
+            </ul>
+
+            <img src="http://www.placecage.com/c/200/200" class="profile-pic right" />
+<!--             <img src="{% static 'img/Star_Fox_3D_Wolf.png' %}" class="profile-pic right" />
+ -->            
+            <ul id="next5">
+                    <h3> Next 5 Mountains </h3>
+                    <li> {{ profile.next_mountain1 }} </li>
+                    <li> {{ profile.next_mountain2 }} </li>
+                    <li> {{ profile.next_mountain3 }} </li>
+                    <li> {{ profile.next_mountain4 }} </li>
+                    <li> {{ profile.next_mountain5 }} </li>
+            </ul>
+
+        </section>
+    </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="{% static 'foundation/js/foundation.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/accounts.js' %}"></script>
+{% endblock content %}

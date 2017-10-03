@@ -1,0 +1,5 @@
+[client]
+database = fourteeners
+user = admin
+password = adminpass123
+default-character-set = utf8

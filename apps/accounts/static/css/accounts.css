@@ -1,0 +1,49 @@
+body {
+    background-color: #9FC3CE;
+}
+
+.top-bar {
+    background: #4E566F;
+}
+    .top-bar ul li{
+        background: #4E566F;
+    }
+
+.top-bar-section {
+    padding-right: 2em;
+}
+
+.sign-in-button {
+    margin-right: 2em !important;
+}
+
+#profile-info {
+    background: url("../img/list-bg.jpg") repeat scroll left top transparent;
+    max-width: 717px;
+    margin: .2em auto auto;
+    text-align: center;
+    border-top: #bfc1c1 .2em solid;
+}
+
+.profile-pic {
+    height: 7em;
+    width: 7em;
+    margin-right: 2em;
+    display: inline-block;
+    clear: both
+}
+
+.user-info {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.account-field {
+    width: 22em !important;
+}
+
+#next5 {
+    list-style-type: none;
+    clear: both;
+}
+
