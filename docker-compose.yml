@@ -7,7 +7,7 @@ services:
     env_file: .env
     restart: always
     ports:
-        - 3306:3306
+        - 3307:3306
     volumes:
         - fourteeners_data:/bitnami
 
@@ -15,7 +15,8 @@ services:
     container_name: fourteeners
     build: .
     env_file: .env
-    command: python3 manage.py runserver 0.0.0.0:8000
+    command: ./wait_for_db_and_start_server.sh
+    #command: python3 manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
     ports:
